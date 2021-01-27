@@ -1,0 +1,250 @@
+@font-face {
+    font-family: 'zawgyi';
+    src: url('../fonts/ZawgyiOne.ttf');
+}
+
+.body{
+  background: #d9d9d9;
+  font-family: 'zawgyi';
+}
+
+h2.logo{
+  margin: 0;
+  padding: 0;
+  font-weight: bold;
+}
+
+h2.logo a.logolink{
+  color: #ffffff;
+  font-size: 25px;
+}
+
+h2.logo a.logolink:hover{
+  color: #ffffff;
+}
+
+form.searchName{
+  padding: 8px;
+  padding-bottom: 0;
+  margin: 0;
+}
+
+.search{
+  height: 30px;
+  color: #000000;
+}
+
+#mnavbar{
+  background: #00b3b3;
+  border-radius: 0;
+}
+
+#mnavbar ul.mynav a{
+  color: #ffffff;
+  font-size: 16px;
+}
+
+#mnavbar .myactive{
+  background: #00cccc;
+}
+
+#mnavbar ul.mynav li a:hover{
+  background: #00cccc;
+}
+
+#mnavbar .mtoggle span{
+  background: #ffffff;
+}
+
+.myprohead, .myproname, .profile h3, #register h3, #welcome h2{
+  padding: 0;
+  margin: 10px;
+  color: gray;
+}
+
+.myproname{
+  color: brown;
+}
+
+.prodetailTable{
+  margin: 10px;
+}
+
+.prodetailTable .td1{
+  width: 40%;
+  padding: 5px;
+}
+
+.prodetailTable .td2{
+  width: 60%;
+  padding: 5px;
+}
+
+.prodetailTable tr{
+  height: 45px;
+}
+
+.content{
+  overflow: hidden;
+}
+
+#profilepart{
+  margin: 0;
+  padding: 5px;
+}
+
+.profile{
+  border: 1px solid #cccccc;
+  background: #ffffff;
+  border-radius: 5px;
+  padding: 10px;
+}
+
+#posts, #editProfilePart{
+  padding: 5px;
+  margin: 0;
+}
+
+#posts ul{
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+#posts ul li .post{
+  border: 1px solid #cccccc;
+  background: #ffffff;
+  border-radius: 5px;
+}
+
+.post .textbar{
+  padding: 10px;
+}
+
+.post .textbar .dp_heading{
+  font-weight: bold;
+  color: #993333;
+}
+
+#footer{
+  background: #00b3b3;
+  height: 50px;
+  margin: 10px;
+  border: 1px solid #008080;
+  border-radius: 5px;
+}
+
+#footer p{
+  line-height: 50px;
+  color: #ffffff;
+}
+
+#about{
+  margin: 60px auto;
+}
+
+#about h2, #about h3{
+  color: gray;
+  text-align: center;
+}
+
+#about p{
+  font-size: 16px ;
+}
+
+img.propic{
+  height: 120px;
+  image-orientation: from-image;
+}
+
+.txtfield{
+  overflow: hidden;
+  border-bottom: 1px solid #cccccc;
+}
+
+textarea.disField{
+  float: left;
+  width: 75%;
+}
+
+button.disAdd-btn{
+  width: 25%;
+  height: 54px;
+  font-weight: bold;
+  color: gray;
+}
+
+.ediscussion{
+  overflow: hidden;
+  padding: 5px 10px;
+  border-bottom: 1px solid #cccccc;
+}
+
+.ediscussion .dusers{
+  float: left;
+  width: 25%;
+}
+
+.ediscussion .dusers img.propic{
+  height: 70px;
+  image-orientation: from-image;
+}
+
+.udis a, .profile a.del{
+  color: red;
+}
+
+#myNavbar form.login{
+  margin: 10px;
+}
+
+#myNavbar form{
+  color: #ffffff;
+}
+
+div.well{
+  border: 1px solid #cccccc;
+}
+
+.feedbackbar button.btn{
+  border-radius: 0;
+  color: gray;
+}
+
+.feedbackbar button.btn span{
+  background: gray;
+}
+
+.feedbackbar button.liked{
+  color: #00b3b3;
+}
+
+.feedbackbar button.liked span{
+  background: #00b3b3;
+}
+
+.udis button.btn{
+  color: gray;
+}
+
+.udis button.btn span{
+  background: gray;
+}
+
+.udis button.dliked{
+  color: #00b3b3;
+}
+
+.udis button.dliked span{
+  background: #00b3b3;
+}
+
+.dname{
+  color: brown;
+}
+
+#posts h3.views, #editProfilePart .views{
+  padding: 0;
+  margin: 0;
+  color: gray;
+}

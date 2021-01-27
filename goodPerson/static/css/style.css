@@ -1,0 +1,325 @@
+html, body, h1, h2, h3, h4, h5, h6{
+  margin: 0;
+  padding: 0;
+}
+
+body{
+  background: #e6e6e6;
+}
+
+.navbar{
+  overflow: hidden;
+  padding: 5px;
+  background: #00b3b3;
+  color: #ffffff;
+}
+
+.logo{
+  float: left;
+}
+
+.logo>a{
+  color: #ffffff;
+  text-decoration: none;
+}
+
+.login{
+  float: right;
+  margin-top: 6px;
+  font-size: 16px;
+}
+
+.body{
+  height: 100%;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+}
+
+.welcometext{
+  background: white;
+  width: 600px;
+  margin-top: 120px;
+  margin-left: 100px;
+  border: 1px solid #a6a6a6;
+  border-radius: 10px;
+  float: left;
+}
+
+.welcometext p{
+  padding: 10px;
+}
+
+.register{
+  float: left;
+  background: #f2f2f2;
+  margin: 100px 0;
+  margin-left: 50px;
+  padding: 20px;
+  border: 1px solid #a6a6a6;
+  border-radius: 10px;
+}
+
+.footer{
+  margin: 10px;
+  border-radius: 5px;
+  padding: 20px;
+  color: #ffffff;
+  border: 1px solid #008080;
+  background: #00b3b3;
+}
+
+.navbar .nav{
+  float: left;
+  overflow: hidden;
+  list-style: none;
+  padding: 0;
+  margin: 3px;
+  margin-left: 40px;
+}
+
+.navbar .nav li{
+  float: left;
+}
+
+.navbar .nav li a, .logout{
+  text-decoration: none;
+  display: block;
+  text-align: center;
+  width: 100px;
+  height: 40px;
+  line-height: 40px;
+  background: #00b3b3;
+  color: #ffffff;
+  font-weight: bold;
+}
+
+.navbar .nav li:last-child a{
+  border-right: 0;
+}
+
+.navbar .nav li a:hover, a.logout:hover{
+  background: #00cccc;
+}
+
+.searchName{
+  float: right;
+  padding: 0;
+  margin: 10px;
+}
+
+.search{
+  background-image: url("../designs/search.png");
+}
+
+a.logout{
+  float: right;
+  border: 0;
+  margin-top: 3px;
+}
+
+.content{
+  overflow: hidden;
+}
+
+.profile{
+  float: left;
+  width: 400px;
+  border: 1px solid #a6a6a6;
+  margin: 20px;
+  padding: 20px;
+  border-radius: 10px;
+}
+
+.propic{
+  height: 150px;
+  image-orientation: from-image;
+}
+
+.profile b{
+  color: blue;
+}
+
+.proname{
+  font-weight: bold;
+  color: brown;
+}
+
+.profile a{
+  text-decoration: none;
+}
+
+.posts{
+  float: left;
+  width: 860px;
+  margin-top: 20px;
+}
+
+.posts ul{
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.post{
+  border: 1px solid #a6a6a6;
+  width: 859px;
+  border-radius: 5px;
+  margin-bottom: 25px;
+  overflow: hidden;
+}
+
+.textbar{
+  padding: 10px;
+}
+
+.textbar .dp_heading{
+  color: purple;
+}
+
+.textbar .dp_date{
+  color: gray;
+  float: right;
+}
+
+.feedbackbar{
+  border-top: 1px solid #a6a6a6;
+  overflow: hidden;
+}
+
+.feedbackbar li{
+  float: left;
+  }
+
+.feedbacks{
+  padding: 0;
+  margin: 0;
+}
+
+.feedbacks button{
+  text-decoration: none;
+  display: block;
+  width: 213px;
+  background: white;
+  color: gray;
+  text-align: center;
+  border-right: 1px solid #a6a6a6;
+  height: 40px;
+}
+
+.feedbacks .liked{
+  color: #00b3b3;
+}
+
+.feedbacks small{
+  margin-left: 10px;
+}
+
+.feedbackbar{
+  border-bottom: 0;
+}
+
+.txtfield{
+  overflow: hidden;
+  padding: 2px;
+  border-bottom: 1px solid #a6a6a6;
+}
+
+.txtfield textarea{
+  float: left;
+  padding: 0;
+  margin: 0;
+  height: 35px;
+  width: 89%;
+}
+
+.txtfield button{
+  float: left;
+  padding: 0;
+  margin-left: 5px;
+  height: 35px;
+  width: 80px;
+}
+
+.discussions, .ediscussion{
+  overflow: hidden;
+}
+
+.dusers{
+  float: left;
+  padding: 5px;
+}
+
+.dusers .duname{
+  color: brown;
+  text-decoration: none;
+}
+
+.udis{
+  float: left;
+  padding: 5px;
+}
+
+.udis p{
+  width: 750px;
+}
+
+.udis p, .udis a, .udis small{
+  margin: 0;
+  padding: 0;
+}
+
+.udis button{
+  background: #ffffff;
+  color: gray;
+  width: 80px;
+  height: 30px;
+  border: 2px solid gray;
+}
+
+.udis .dliked{
+  color: #00b3b3;
+}
+
+.dusers .dupropic{
+  width: 80px;
+}
+
+.discussions li{
+  border-bottom: 1px solid #a6a6a6;
+}
+
+.discussions li:last-child{
+  border-bottom: 0;
+}
+
+.editProfile{
+  float: left;
+  border: 1px solid #a6a6a6;
+  width: 770px;
+  margin: 20px 0;
+  border-radius: 10px;
+  padding: 40px;
+}
+
+.welcometext, .register, .profile, .post, .feedbackbar, .editProfile{
+  background: white;
+}
+
+h3, h2{
+  color: #808080;
+}
+
+.about{
+  background: #ffffff;
+  margin: 60px auto;
+  margin-bottom: 50px;
+  padding: 30px;
+  border: 1px solid #a6a6a6;
+  border-radius: 10px;
+  width: 800px;
+}
+
+.addposts, .addptitle{
+  width:850px;
+}

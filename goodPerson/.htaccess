@@ -1,0 +1,6 @@
+RewriteEngine On
+RewriteBase /goodPerson/
+RewriteCond %{REQUEST_FILENAME} !^(.*)\.(gif|png|jpg|jpeg|JPG|PNG|JPEG)$
+RewriteCond $1 !^(index\.php|img|static|podcast|js|robots\.txt|css)
+RewriteRule ^(.*)$ /goodPerson/index.php?/$1 [L]
+AddDefaultCharset UTF-8
